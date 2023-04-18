@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Home Assistant add-on for Weatherlink IP
+url: 'https://github.com/dynodix/hassioweatherlinkip'
+maintainer: Dynodix <dino@redox.si>
