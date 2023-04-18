@@ -1,0 +1,19 @@
+name: "Davis Weatherlink IP to rest"
+description: >-
+  "Davis Weatherlink IP rest Server"
+version: "2.0.0"
+slug: weatherlink_ip2rest
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: before
+ports:
+  8222/tcp: 8222
+options:
+  weatherlinkip: "192.168.74.10:22222"
+schema:
+  weatherlinkip: str
