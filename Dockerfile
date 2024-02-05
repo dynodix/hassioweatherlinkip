@@ -12,7 +12,7 @@ FROM ${BUILD_FROM}
 #FROM homeassistant/amd64-base-debian
 
 # Set shell
-#SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+#SHELL ["sudo","/bin/bash", "-o", "pipefail", "-c"]
 
 # Install requirements for add-on
 #RUN set -x
