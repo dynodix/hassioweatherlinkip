@@ -1,7 +1,9 @@
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base:latest
+FROM ${BUILD_FROM}
 #ARG BUILD_FROM
 #FROM $BUILD_FROM
 #FROM debian:buster
-FROM homeassistant/amd64-base-debian
+#FROM homeassistant/amd64-base-debian
 
 # Set shell
 #SHELL ["/bin/bash", "-o", "pipefail", "-c"]
