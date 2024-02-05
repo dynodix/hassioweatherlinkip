@@ -1,6 +1,12 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base:7.3.1
+ARG BUILD_FROM
+# amd64: debian:${VERSION}-slim
+# i386: i386/debian:${VERSION}-slim
+# aarch64: arm64v8/debian:${VERSION}-slim
+# armv7: arm32v7/debian:${VERSION}-slim
+# armhf: arm32v5/debian:${VERSION}-slim
+
 FROM ${BUILD_FROM}
-#ARG BUILD_FROM
+#ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base:7.3.1
 #FROM $BUILD_FROM
 #FROM debian:buster
 #FROM homeassistant/amd64-base-debian
