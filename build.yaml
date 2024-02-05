@@ -4,3 +4,13 @@ build_from:
   armv7: "arm32v7/debian:"
   armhf: "arm32v5/debian:"
   amd64: "debian:"
+  i386: "i386/debian:"
+cosign:
+  identity: https://github.com/home-assistant/docker-base/.*
+args:
+  BASHIO_VERSION: 0.16.2
+  TEMPIO_VERSION: 2021.09.0
+  S6_OVERLAY_VERSION: 3.1.6.2
+labels:
+  io.hass.base.name: debian
+  org.opencontainers.image.source: https://github.com/home-assistant/docker-base
