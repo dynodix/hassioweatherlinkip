@@ -1,7 +1,7 @@
 name: "Davis Weatherlink IP to rest"
 description: >-
   "Davis Weatherlink IP rest Server"
-version: "2.0.0"
+version: "2.1.0"
 slug: weatherlink_ip2rest
 init: false
 arch:
